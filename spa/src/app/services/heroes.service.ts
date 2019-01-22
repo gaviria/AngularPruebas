@@ -79,8 +79,8 @@ export class HeroesService {
         if(nombre.indexOf(termino)>= 0){
           heroesArr.push(heroe);
         }
-      return heroesArr;
       }
+      return heroesArr;
     }
 }
 
